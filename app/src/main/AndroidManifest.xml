@@ -22,7 +22,8 @@
 
         <activity
             android:name=".FrierActivity"
-            android:theme="@style/SeekBar">
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
