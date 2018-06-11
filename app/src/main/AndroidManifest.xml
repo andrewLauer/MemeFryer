@@ -19,7 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrierActivity"></activity>
+
+        <activity
+            android:name=".FrierActivity"
+            android:theme="@style/SeekBar">
+        </activity>
     </application>
 
 </manifest>
