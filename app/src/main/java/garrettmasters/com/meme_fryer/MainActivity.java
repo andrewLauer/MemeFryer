@@ -3,10 +3,6 @@ package garrettmasters.com.meme_fryer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
-import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openFrierActivty(View view){
-        Intent openFrierActivity = new Intent(this, FrierActivity.class);
+        Intent openFrierActivity = new Intent(this, FryerActivity.class);
         startActivity(openFrierActivity);
     }
 

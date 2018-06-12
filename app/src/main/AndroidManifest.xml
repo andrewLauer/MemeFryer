@@ -21,7 +21,7 @@
         </activity>
 
         <activity
-            android:name=".FrierActivity"
+            android:name=".FryerActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
         </activity>
