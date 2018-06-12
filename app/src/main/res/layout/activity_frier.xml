@@ -10,6 +10,7 @@
     <!-- gang gang -->
 
     <android.support.v7.widget.CardView
+        android:id="@+id/cvImageFryer"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -21,19 +22,20 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:contentPadding="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/cvAdMain"
+        app:layout_constraintBottom_toTopOf="@+id/cvOptionsFryer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            android:id="@+id/llImageFryer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ivImageFryer"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srcCompat="@color/colorPrimaryDark" />
@@ -42,9 +44,9 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
-        android:id="@+id/cvAdMain"
+        android:id="@+id/cvOptionsFryer"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -58,45 +60,46 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
+            android:id="@+id/llOptionsFryer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tvOptionsFryer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="Intensity" />
 
             <SeekBar
-                android:id="@+id/seekBar3"
+                android:id="@+id/sbOptionsFryer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:thumbTint="@color/colorAccent" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/tvOptionsFryer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="Intensity" />
 
             <SeekBar
-                android:id="@+id/seekBar2"
+                android:id="@+id/sbOptionsFryer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:thumbTint="@color/colorAccent" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/tvOptionsFryer3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="Intensity" />
 
             <SeekBar
-                android:id="@+id/seekBar"
+                android:id="@+id/sbOptionsFryer3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:thumbTint="@color/colorAccent" />
