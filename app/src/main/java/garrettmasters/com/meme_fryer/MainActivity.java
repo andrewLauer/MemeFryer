@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openFrierActivty(View view){
-        Intent openFrierActivity = new Intent(this, FryerActivity.class);
-        startActivity(openFrierActivity);
+    public void openFryerActivty(View view){
+        Intent openFryerActivity = new Intent(this, FryerActivity.class);
+        startActivity(openFryerActivity);
     }
 
     public void loadImage(View view) {
