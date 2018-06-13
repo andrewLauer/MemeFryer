@@ -9,7 +9,6 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private static final int LOAD_IMAGE = 0;
-
     private Button openFryerButton;
 
     @Override
@@ -17,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //OnClickListener for cvButtonMain
         openFryerButton = (Button) findViewById(R.id.cvButtonMain);
         openFryerButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //Open FryerActivity
     public void openFryerActivity() {
         Intent intent = new Intent(this, FryerActivity.class);
         startActivity(intent);
