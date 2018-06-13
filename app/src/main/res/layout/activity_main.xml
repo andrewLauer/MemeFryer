@@ -86,8 +86,6 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginStart="16dp"
-                android:clickable="true"
-                android:onClick="openFryerActivity"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="5dp"
                 app:contentPadding="8dp"
