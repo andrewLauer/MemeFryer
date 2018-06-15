@@ -38,7 +38,8 @@
                 android:id="@+id/ivImageFryer"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@color/colorPrimaryDark" />
+                app:srcCompat="@color/colorPrimaryDark"
+                android:contentDescription="Meme" />
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
