@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Meme Fryer</string>
+    <string name="meme">meme</string>
 </resources>
