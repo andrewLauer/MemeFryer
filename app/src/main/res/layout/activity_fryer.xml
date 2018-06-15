@@ -59,60 +59,125 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <LinearLayout
-            android:id="@+id/llOptionsFryer"
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nsvOptionsFryer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:fillViewport="true"
+            android:scrollbars="vertical">
 
-            <TextView
-                android:id="@+id/tvOptionsFryer1"
+            <LinearLayout
+                android:id="@+id/llOptionsFryer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="12dp"
-                android:text="Intensity" />
+                android:orientation="vertical">
 
-            <SeekBar
-                android:id="@+id/sbOptionsFryer1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:thumbTint="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/tvOptionsFryer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
 
-            <TextView
-                android:id="@+id/tvOptionsFryer2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="12dp"
-                android:text="Intensity" />
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
 
-            <SeekBar
-                android:id="@+id/sbOptionsFryer2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:thumbTint="@color/colorAccent" />
+                <TextView
+                    android:id="@+id/tvOptionsFryer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
 
-            <TextView
-                android:id="@+id/tvOptionsFryer3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="12dp"
-                android:text="Intensity" />
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
 
-            <SeekBar
-                android:id="@+id/sbOptionsFryer3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:thumbTint="@color/colorAccent" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/tvOptionsFryer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
+
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tvOptionsFryer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
+
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tvOptionsFryer5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
+
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tvOptionsFryer6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
+
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tvOptionsFryer7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
+
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tvOptionsFryer8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Intensity" />
+
+                <SeekBar
+                    android:id="@+id/sbOptionsFryer8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:thumbTint="@color/colorAccent" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
     </android.support.v7.widget.CardView>
 
 </android.support.constraint.ConstraintLayout>
