@@ -69,7 +69,10 @@
                 android:id="@+id/tvOptionsFryer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="12dp"
                 android:text="Intensity" />
 
             <SeekBar
@@ -82,7 +85,10 @@
                 android:id="@+id/tvOptionsFryer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="12dp"
                 android:text="Intensity" />
 
             <SeekBar
@@ -95,7 +101,10 @@
                 android:id="@+id/tvOptionsFryer3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="12dp"
                 android:text="Intensity" />
 
             <SeekBar
