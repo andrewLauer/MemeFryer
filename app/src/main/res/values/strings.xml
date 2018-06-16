@@ -3,4 +3,12 @@
     <string name="app_dev">By Andrew Lauer and Garrett Masters</string>
     <string name="meme">Meme</string>
     <string name="load_meme">Load Meme</string>
+    <string name="fryer_option_1">Intensity</string>
+    <string name="fryer_option_2">Intensity</string>
+    <string name="fryer_option_3">Intensity</string>
+    <string name="fryer_option_4">Intensity</string>
+    <string name="fryer_option_5">Intensity</string>
+    <string name="fryer_option_6">Intensity</string>
+    <string name="fryer_option_7">Intensity</string>
+    <string name="fryer_option_8">Intensity</string>
 </resources>

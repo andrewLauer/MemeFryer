@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srcCompat="@color/colorPrimaryDark"
-                android:contentDescription="Meme" />
+                android:contentDescription="@string/meme" />
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
@@ -78,104 +78,112 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_1" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_2" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_3" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_4" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_5" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_6" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_7" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
 
                 <TextView
                     android:id="@+id/tvOptionsFryer8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="Intensity" />
+                    android:text="@string/fryer_option_8" />
 
                 <SeekBar
                     android:id="@+id/sbOptionsFryer8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:thumbTint="@color/colorAccent" />
+                    android:thumbTint="@color/colorAccent"
+                    tools:targetApi="lollipop" />
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
 
