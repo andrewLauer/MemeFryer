@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Meme Fryer</string>
-    <string name="meme">meme</string>
+    <string name="app_dev">By Andrew Lauer and Garrett Masters</string>
+    <string name="meme">Meme</string>
+    <string name="load_meme">Load Meme</string>
 </resources>
