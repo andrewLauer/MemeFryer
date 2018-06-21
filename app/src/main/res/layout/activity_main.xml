@@ -111,7 +111,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/cvAdMain"
         android:layout_width="0dp"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -125,5 +125,25 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="DuplicateIds">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                app:adSize="BANNER"
+                app:adUnitId="@string/app_id"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
     </android.support.v7.widget.CardView>
+
 </android.support.constraint.ConstraintLayout>
