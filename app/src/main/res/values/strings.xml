@@ -12,5 +12,7 @@
     <string name="fryer_option_7">Intensity</string>
     <string name="fryer_option_8">Intensity</string>
     <string name="test_id">1F79EE54F792903DA80D977685813897</string>
-    <string name="app_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id">ca-app-pub-8820085508721841/1039554042</string>
+    <string name="app_id">ca-app-pub-8820085508721841~9205694962</string>
+    //old id: ca-app-pub-3940256099942544/6300978111
 </resources>
