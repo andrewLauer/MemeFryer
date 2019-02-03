@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Load ad
         // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
-        MobileAds.initialize(this, "@string/app_id");
+        MobileAds.initialize(this, "@string/ad_unit_id");
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
