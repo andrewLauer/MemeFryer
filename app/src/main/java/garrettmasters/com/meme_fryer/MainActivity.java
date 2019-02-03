@@ -63,16 +63,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Open FryerActivity
-    public void openFryerActivity(View view) {
-        Intent openFryerActivity = new Intent(this, FryerActivity.class);
-        startActivity(openFryerActivity);
-    }
+    //public void openFryerActivity(View view) {
+        //Intent openFryerActivity = new Intent(this, FryerActivity.class);
+        //startActivity(openFryerActivity);
+    //}
 
+    //Select meme
     public void loadImage(View view) {
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(intent,
-                "Select Picture"), LOAD_IMAGE);
+                "Select Meme"), LOAD_IMAGE);
     }
 }
